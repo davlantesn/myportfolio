@@ -11,3 +11,13 @@ html, body {
   flex: 33.33%;
   padding: 5px;
 }
+
+ .dark-gray-background {
+  background-color: #3c3c3c;
+   height:800px;
+  
+}
+
+.mynameis {
+  color: white;
+}
