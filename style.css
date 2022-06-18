@@ -1,8 +1,15 @@
+/* font-family: 'Archivo Narrow', sans-serif; */
+/* font-family: 'Chango', cursive; */
+
 html, body {
   height: 100%;
   width: 100%;
 }
 
+h1 {
+font-family: 'Chango', cursive;
+font-weight: 400;  
+}
 
 .row {
   display: flex;
