@@ -3,6 +3,7 @@ html, body {
   width: 100%;
 }
 
+
 .row {
   display: flex;
 }
@@ -27,8 +28,9 @@ html, body {
   box-sizing: border-box;
 }
 
-.projectsliderbox {
-  
+#projectsliderbox {
+  display: flex;
+  justify-content: center; 
 }
 
 .slider {
