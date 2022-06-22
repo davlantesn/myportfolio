@@ -133,7 +133,6 @@ padding: 15px;
   margin: 30px;
   color: #EF5447;
   font-size: 30px;
-  
 }
 
 #navbarNavAltMarkup {
@@ -160,8 +159,8 @@ a {
 
 @media only screen and (max-width: 600px) {
 	#about-me-box {
-    width: 100%;
-		padding: 0 10px;
+  width: 100%;
+	padding: 0 10px;
   }
 
   #about-me-box img {
@@ -169,13 +168,14 @@ a {
   padding: 10px;  
   }
   
-  	/*responsive helper classes*/
+  
+  /*responsive helper classes*/
 	.hidden-xs {
-		display: none;
-	
+	display: none;
   }
+  
 	.max-width-xs {
-	  width: 100%;
+	width: 100%;
   }
 
   .redish-background {
@@ -183,7 +183,26 @@ a {
   width: 100%;     
  }
 
-  .icongraphics {
-  width: 5px;
-  padding: 40px;  
-  } 
+  .envelope {
+    text-align: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+  }
+
+   .bubble {
+       text-align: center;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+  }
+
+.texthere {
+ text-align: center; 
+}
+
+  .myemailhere {
+ text-align: center; 
+}
