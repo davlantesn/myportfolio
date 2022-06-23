@@ -42,7 +42,7 @@ prevSlide.addEventListener("click", function () {
     curSlide--;
   }
 
-  //   move slide by 100%
+  // move slide by 100%
   slides.forEach((slide, indx) => {
     slide.style.transform = `translateX(${100 * (indx - curSlide)}%)`;
   });
